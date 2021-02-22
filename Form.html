@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html class = "align">
+
+<head>
+
+              
+    <meta name="viewport" content="width=device-width, initial-scal-1">
+
+    <!---Latest compiled and minified css-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+   
+ <h1 class="dist backtitle">Application Form</h1>
+ <style>
+
+       body
+       {
+       text-align: center; 
+       background: linear-gradient(180deg,gray, white  );
+       font-weight: bold;       
+       }
+     #main_wrapper{
+    text-align: left;
+    width: 1000px; 
+    margin-right:auto;
+    margin-left:auto;
+
+    }
+     .dist{
+            padding:40px;
+     }
+     .backtitle{
+            background: linear-gradient(180deg, teal, white );
+     }
+     div{
+            border: 
+     }
+     input{
+            border-radius: 10px;
+            
+     }
+
+</style>
+</head>
+<body>
+
+       <form class="dist space">
+    Full name: 
+    <input type="text" name="fullname">
+    <br><br>
+    Email Address:
+    <input type="email" name="email">
+    <br><br> Password:
+    <input type="password" name="password">
+    <br><br> Date of Birth:
+    <input type="date" name="dob">
+    <br><br> Graduation Year:
+    <input type="range" name="gradYr" min="1980" max="2021" >
+    <br><br> Gender:
+
+    <input type="radio"
+           name="genderOption"
+           value="male"> male
+    <input type="radio"
+           name="genderOption"
+           value="female"> female
+    <input type="radio"
+           name="genderOption"
+           value="undisclosed"> undisclosed
+    <br><br> Favourite Color:
+    <input type="color" name="favcolor">
+    <br><br> Resume Submission:<br>
+    <br><input type="file" name="resume">                      
+    <br><br>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+ </form>
+ 
+</body>       
+</html>  
