@@ -8,6 +8,8 @@
 
     <!---Latest compiled and minified css-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
 
 
    
@@ -17,8 +19,9 @@
        body
        {
        text-align: center; 
-       background: linear-gradient(180deg,gray, white  );
-       font-weight: bold;       
+        background: linear-gradient(360deg,teal, white  ); 
+       font-weight: bold; 
+       font-family: Trirong;      
        }
      #main_wrapper{
     text-align: left;
@@ -31,15 +34,21 @@
             padding:40px;
      }
      .backtitle{
-            background: linear-gradient(180deg, teal, white );
+            background: linear-gradient(180deg, gray, white ); 
      }
      div{
             border: 
      }
      input{
             border-radius: 10px;
+            outline: none;
+            font-family: ;
             
      }
+     .pass{
+            font-size: larger;
+     }
+     
 
 </style>
 </head>
@@ -70,7 +79,7 @@
            value="undisclosed"> undisclosed
     <br><br> Favourite Color:
     <input type="color" name="favcolor">
-    <br><br> Resume Submission:<br>
+    <br><br> Resume Submission: <br>
     <br><input type="file" name="resume">                      
     <br><br>
     <input type="submit" value="Submit">
